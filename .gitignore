@@ -1,0 +1,127 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+DATA/
+
+enterprise_env/
+
+# ==============================
+# UV
+# ==============================
+# Usually commit uv.lock for applications
+# Ignore only temporary/cache files
+.uv/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+secrets/
+credentials.json
+service-account*.json
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ==============================
+# ML / AI / RAG Artifacts
+# ==============================
+models/
+checkpoints/
+artifacts/
+mlruns/
+wandb/
+chroma_db/
+chroma/
+faiss_index/
+*.faiss
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==============================
+# Data Files
+# ==============================
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+
+# ==============================
+# Temporary Files
+# ==============================
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+
+# ==============================
+# Docker & Local Overrides
+# ==============================
+.env.docker
+docker-compose.override.yml
+
+# ==============================
+# Build / Distribution
+# ==============================
+site/
+htmlcov/
