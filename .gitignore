@@ -1,127 +1,72 @@
 
-# ==============================
-# Python
-# ==============================
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-.eggs/
+
 
 DATA/
 
 enterprise_env/
 
-# ==============================
-# UV
-# ==============================
-# Usually commit uv.lock for applications
-# Ignore only temporary/cache files
-.uv/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+genv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# ==============================
-# Environment Variables & Secrets
-# ==============================
+# Environment variables
 .env
-.env.*
-!.env.example
-!.env.sample
-*.pem
-*.key
-secrets/
-credentials.json
-service-account*.json
 
-# ==============================
-# Jupyter Notebook
-# ==============================
-.ipynb_checkpoints/
+# Local Vector Store
+index.faiss
+metadata.pkl
 
-# ==============================
-# IDEs & Editors
-# ==============================
+# Data
+
+
+# IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# ==============================
-# OS Files
-# ==============================
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# ==============================
+enterprise_env
+
+commands.md
+
+.logfire
+
+tenvv
+
+# Claude Code memory & session data
+.claude/
+
 # Logs
-# ==============================
 *.log
-logs/
 
-# ==============================
-# Testing & Coverage
-# ==============================
-.pytest_cache/
-.coverage
-.coverage.*
-htmlcov/
-.tox/
-.nox/
-.mypy_cache/
-.ruff_cache/
-.hypothesis/
+commands_scalable.md
 
-# ==============================
-# ML / AI / RAG Artifacts
-# ==============================
-models/
-checkpoints/
-artifacts/
-mlruns/
-wandb/
-chroma_db/
-chroma/
-faiss_index/
-*.faiss
-*.pkl
-*.pickle
-*.joblib
-*.pt
-*.pth
-*.ckpt
-*.onnx
-
-# ==============================
-# Data Files
-# ==============================
-data/raw/
-data/processed/
-*.csv
-*.parquet
-*.feather
-
-# ==============================
-# Temporary Files
-# ==============================
-tmp/
-temp/
-.cache/
-*.tmp
-*.bak
-
-# ==============================
-# Docker & Local Overrides
-# ==============================
-.env.docker
-docker-compose.override.yml
-
-# ==============================
-# Build / Distribution
-# ==============================
-site/
-htmlcov/
+# Terraform — secrets and generated state
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
