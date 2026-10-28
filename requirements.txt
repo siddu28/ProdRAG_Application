@@ -48,3 +48,26 @@ beautifulsoup4              # High-speed HTML text extraction
 langsmith                   # Specialized tracing for LangChain/LangGraph
 logfire[fastapi,requests]   # Pydantic Logfire — FastAPI + requests instrumentation
 loguru                      # Enhanced logging for Python
+
+
+# --- GUARDRAILS ---
+nemoguardrails              # NVIDIA NeMo Guardrails for input/output safety rails
+langchain-nvidia-ai-endpoints #Langchain integration with NVIDIA AI Endpoints
+
+
+# --- LLM GATEWAY ---
+portkey-ai                  # Portkey Gateway for unified LLM routing, fallbacks & observability
+
+# EVALS
+
+# --- EVALUATION (EVALS) ---
+ragas                       # RAG-specific evaluation metrics (Faithfulness, Relevancy, Recall)
+deepeval                    # Pytest-compatible test runner wrapping RAGAS & safety metrics
+langfuse                    # Live production monitoring, tracing & user feedback collection
+
+sentence-transformers       # Embeddings
+
+# --- POSTGRES CHECKPOINTER (LangGraph persistent memory) ---
+psycopg[binary]             # psycopg3 driver — required by PostgresSaver
+psycopg-pool                # Connection pool for psycopg3
+langgraph-checkpoint-postgres  # LangGraph PostgresSaver package
