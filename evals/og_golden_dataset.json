@@ -12,7 +12,7 @@
       "expected_tools": ["retrieve_documents"],
       "actual_response": "",
       "actual_contexts": [],
-      "actual_tools_called": []
+      "actual_tools_called": [] 
     },
     {
       "id": 2,
